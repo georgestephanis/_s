@@ -44,6 +44,7 @@ and Blueprint http://www.blueprintcss.org/
 12.0 - Media
 	12.1 - Captions
 	12.2 - Galleries
+13.0 - Theme
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
@@ -679,3 +680,50 @@ object {
 	max-width: 11.11%;
 }
 .gallery-caption {}
+
+/*--------------------------------------------------------------
+13.0 Theme
+--------------------------------------------------------------*/
+.site-header,
+.widget-area {
+	background-color: #111;
+	padding: 1em 7em;
+	color: white;
+}
+.site-branding {
+	float: left;
+}
+.site-branding h1 {
+	font: italic 700 24pt Georgia, "Times New Roman", Times, serif;
+}
+.site-branding h1 a {
+	color: white;
+	text-decoration: none;
+}
+.site-branding h2 {
+	display: none;
+}
+.main-navigation {
+	clear: none;
+	float: right;
+	width: auto;
+}
+.main-navigation a {
+	padding: 0.5em;
+	text-transform: lowercase;
+	color: white;
+}
+.widget-area .widget {
+	float: left;
+	width: 25%;
+	padding: 1em;
+	box-sizing: border-box;
+}
+.site-footer {
+	font: 16px Georgia, "Times New Roman", Times, serif;
+	padding: 1em;
+	text-align: center;
+}
+.site-footer a {
+	color: #111;
+}
