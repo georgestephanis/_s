@@ -92,7 +92,8 @@ add_action( 'widgets_init', 'kirkwood_widgets_init' );
  * Enqueue scripts and styles.
  */
 function kirkwood_scripts() {
-	wp_enqueue_style( 'kirkwood-style', get_stylesheet_uri() );
+	wp_register_style( 'kirkwood-fonts', '//fonts.googleapis.com/css?family=Abril+Fatface' );
+	wp_enqueue_style( 'kirkwood-style', get_stylesheet_uri(), array( 'kirkwood-fonts' ) );
 
 	wp_enqueue_script( 'kirkwood-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 
