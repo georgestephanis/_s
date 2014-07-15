@@ -508,6 +508,8 @@ a:active {
 .entry-content:after,
 .comment-content:before,
 .comment-content:after,
+.widget-area:before,
+.widget-area:after,
 .site-header:before,
 .site-header:after,
 .site-content:before,
@@ -521,6 +523,7 @@ a:active {
 .clear:after,
 .entry-content:after,
 .comment-content:after,
+.widget-area:after,
 .site-header:after,
 .site-content:after,
 .site-footer:after {
