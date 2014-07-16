@@ -2,10 +2,11 @@
 /**
  * @package kirkwood
  */
+list( $thumb_src ) = wp_get_attachment_image_src( get_post_thumbnail_id(), 'large' );
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
+	<header class="entry-header" style="background-image: url('<?php echo esc_url( $thumb_src ); ?>');">
 		<?php the_title( sprintf( '<h1 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h1>' ); ?>
 
 		<?php if ( 'post' == get_post_type() ) : ?>
