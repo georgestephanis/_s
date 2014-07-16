@@ -687,10 +687,21 @@ object {
 /*--------------------------------------------------------------
 13.0 Theme
 --------------------------------------------------------------*/
+
+.site-header,
+.site-description,
+.content-area,
+.widget-area,
+.site-footer {
+	padding: 1rem 12rem;
+}
+.content-area {
+	padding-top: 0;
+	padding-bottom: 0;
+}
 .site-header,
 .widget-area {
 	background-color: #111;
-	padding: 1em 7em;
 	color: white;
 }
 .site-branding {
@@ -724,7 +735,6 @@ object {
 }
 .site-footer {
 	font: 16px Georgia, "Times New Roman", Times, serif;
-	padding: 1em;
 	text-align: center;
 }
 .site-footer a {
