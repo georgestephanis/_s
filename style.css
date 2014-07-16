@@ -579,6 +579,46 @@ a:active {
 	clear: both;
 	margin: 0 0 1.5em;
 }
+.post .entry-header {
+	background-color: #111;
+	background-size: cover;
+	text-align: center;
+}
+.post .entry-header a {
+	display: block;
+	padding: 10rem 3rem;
+	color: white;
+	text-decoration: none;
+	line-height: 1.1;
+	font-size: 14pt;
+	text-shadow: 0 0 8px rgba(0,0,0,0.5);
+}
+.post {
+	width: 30%;
+	float: left;
+}
+.post:nth-child(4n+1) {
+	width: 100%;
+}
+.post:nth-child(4n+2),
+.post:nth-child(4n+3) {
+	margin-right: 5%;
+}
+.post:nth-child(4n+1) .entry-header a {
+	font-size: 18pt;
+	padding-top: 30rem;
+	padding-bottom: 5rem;
+}
+.post .entry-header .entry-meta,
+.post .entry-content,
+.post .entry-footer {
+	display: none;
+}
+.single-post .post .entry-header .entry-meta,
+.single-post .post .entry-content,
+.single-post .post .entry-foote {
+	display: block;
+}
 
 /*--------------------------------------------------------------
 10.2 Asides
