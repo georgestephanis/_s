@@ -714,9 +714,6 @@ object {
 	color: white;
 	text-decoration: none;
 }
-.site-branding h2 {
-	display: none;
-}
 .main-navigation {
 	clear: none;
 	float: right;
@@ -726,6 +723,11 @@ object {
 	padding: 0.5em;
 	text-transform: lowercase;
 	color: white;
+}
+.site-description {
+	font-size: 50pt;
+	color: #111;
+	text-align: center;
 }
 .widget-area .widget {
 	float: left;
