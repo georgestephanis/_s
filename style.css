@@ -583,7 +583,7 @@ a:active {
 	background-size: cover;
 	text-align: center;
 }
-.post .entry-header a {
+.post .entry-header .entry-title a {
 	display: block;
 	padding: 10rem 3rem;
 	color: white;
@@ -603,7 +603,7 @@ a:active {
 .post:nth-child(4n+3) {
 	margin-right: 5%;
 }
-.post:nth-child(4n+1) .entry-header a {
+.post:nth-child(4n+1) .entry-header .entry-title a {
 	font-size: 18pt;
 	padding-top: 30rem;
 	padding-bottom: 5rem;
