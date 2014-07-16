@@ -6,7 +6,7 @@ list( $thumb_src ) = wp_get_attachment_image_src( get_post_thumbnail_id(), 'larg
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header" style="background-image: url('<?php echo esc_url( $thumb_src ); ?>');">
+	<header class="entry-header" style="background: #111 url('<?php echo esc_url( $thumb_src ); ?>') 50% 50%;">
 		<?php the_title( sprintf( '<h1 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h1>' ); ?>
 
 		<?php if ( 'post' == get_post_type() ) : ?>
